@@ -1,0 +1,271 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url('./img/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #A0BBD1;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, span{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.container{
+	width: 500px;
+	height: 620px;
+	box-sizing: border-box;
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+.header{
+	background-color: #6A96D8;
+	padding: 20px;
+	width: 100%;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header ul{
+	list-style-color: white;
+}
+
+.circle{
+	width: 3px;
+	height: 2px;
+	padding: 4px;
+	background-color: #fff;
+	border-radius: 50%;
+}
+
+.headertext{
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 250px;
+}
+
+
+.header img{
+	width: 40px;
+	height: 40px;
+	opacity: 0.5;
+}
+
+.innercontainer{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+.main span {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #DDDDDD;
+}
+.main span:before {
+	content: '';
+	display: inline-block;
+	height: 2px;
+	width: 210px;
+	background-color: #DDDDDD;
+}
+
+.main span:after {
+	content: '';
+	display: inline-block;
+	height: 2px;
+	width: 210px;
+	background-color: #DDDDDD;
+}
+
+.massage{
+	display: inline-block;
+	padding-top: 20px;
+}
+
+.massage p{
+	padding: 20px;
+	background-color: #E6EDF6;
+	margin-left: 20px;
+	font-weight: 450;
+	position: relative;
+	border-radius: 0 5px 5px 5px;
+}
+
+.massage p:before{
+	content: "";
+	background: linear-gradient(45deg, white 50%, #E6EDF6 50%);
+	left: -20px;
+	top: 0;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+}
+
+.massage span{
+	color: #AAAAAA;
+	font-weight: bold;
+}
+
+/*left massage*/
+
+.left-massage{
+	margin-top: 20px;
+	padding-right: 50px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+}
+
+.left-massage p, .block p{
+	padding: 20px;
+	background-color: #F2F2F2;
+	margin-left: 20px;
+	font-weight: 450;
+	position: relative;
+	border-radius: 5px 0px 5px 5px;
+}
+
+.left-massage p:after{
+	content: "";
+	background: linear-gradient(135deg, #F2F2F2 50%, white 50%);
+	right: -20px;
+	top: 0;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+}
+
+.left-massage span, .block span{
+	color: #AAAAAA;
+	font-weight: bold;
+	text-align: right;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+/*Block*/
+
+.block{
+	margin-top: 20px;
+	padding-right: 50px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.block p{
+	padding: 20px;
+	background-color: #F2F2F2;
+	margin-left: 20px;
+	font-weight: 450;
+	position: relative;
+	border-radius: 0px 5px 5px 5px;
+}
+
+
+
+.block p{
+	color: #000;
+	font-weight: bold;
+	background-color: #FFC2C1;
+}
+
+
+
+.massageSend{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	box-sizing: border-box;
+	border-top: 1px solid #f1f1f1;
+	margin-top: 30px;
+	padding-top: 10px;
+}
+
+.massageSend input[type=text]{
+	border: none;
+	padding: 10px;
+	outline: none;
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 18px;
+}
+
+.massageSend button{
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #6A96D8;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
